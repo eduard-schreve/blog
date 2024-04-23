@@ -1,7 +1,7 @@
 # python -m streamlit run app.py
 import requests
 import streamlit as st
-from streamlit_lottie import st_lottie
+# from streamlit_lottie import st_lottie
 
 def load_animation(url):
     r = requests.get(url)
@@ -32,4 +32,4 @@ st.write("---")
 st.write("I’m the Coffee Coder goodbye!")
 st.image("CoffeeCoder.png", "fig.1 Coffee Coder logo")
 st.image("Jack E. Bresenham.png", "fig.2 Jack E Bresenham")
-st_lottie(home_animation, height=300)
+# st_lottie(home_animation, height=300)
