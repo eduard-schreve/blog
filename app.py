@@ -13,23 +13,26 @@ home_animation = load_animation("https://lottie.host/9d81cf4f-ef02-4e30-801e-7d1
 
 st.set_page_config("The coffee coder", "CoffeeCoder.png", "wide")
 st.title("The Coffee Coder")
-st.subheader("Bolgpost #1")
-st.write("Hello so this blog will be about the game that I’m creating, more spesifically the code and the "
-"evolution of the code. ")
+st.subheader("Bolgpost #2")
+st.write("Hello again today we’ll be talking about noise, more specifically Perlin and white noise")
 st.write("---")
 st.write("I’m the Coffee Coder and let’s dive in. ")
 st.write("---")
-st.write("I begun my quest rather slowly in the middle of the summer vacation I was writing a chess program "
-"but found it rather boring so I created my own game I set in the bacics you know a player, a "
-"backround and movement controlls but things got difficult when it came to the enemy. The thing is "
-"creating an enemy is not so difficult it is making the enemy follow the player that is hard, but I had "
-"a solution, the enemy was going to follow a line.  More spesifically every point in that line and it "
-"will decide what point to go to depending on the speed of enemy movement. I know this is "
-"something every game developer struggles with so you can get my code on my [github repository](https://github.com/eduard-schreve/Astronomical) "
-"also my friend [Nicolaas has an amasing blog](https://coding-discussions.blogspot.com/2024/04/my-experience-with-coding.html) about coding and you should really check it out, who "
-"knows maybe you will get into coding like me. ")
+st.write("So perlin noise (figure 1) is a natural looking random generator which can be used to create game"
+ "maps and make it look realistic a noise which is also used is fractal brownian motion."
+ "Perllin noise was first created by Ken Perlin (figure 2) in 1983 for the movie: Tron to"
+ "create natural looking patterns as previously mentioned.")
 st.write("---")
-st.write("I’m the Coffee Coder goodbye!")
-st.image("CoffeeCoder.png", "fig.1 Coffee Coder logo")
-st.image("Jack E. Bresenham.png", "fig.2 Jack E Bresenham")
+st.write("Next: white noise (figure 3) is used, in my game for example, to put trees and other objects at"
+ "random places in the game map to make it more natural looking."
+ "White noise can be seen in the everyday world when you turn on the TV and it just gives you static"
+ "well that static is a visual example of white noise.")
+st.write("---")
+st.write("And hey be sure to check out my friend Nicolaas’ blog it is also about coding and I think it is a very"
+ "intuative post and this one and I find it highly interesting as I’m sure you will too.")
+st.write("---")
+st.write("I’m the coffee coder and have a good one!")
+st.image("perlin noise.png", "fig.1 perlin noise")
+st.image("ken perlin.png", "fig.2 Ken Perlin")
+st.image("white noise.png", "fig.3 White noise")
 # st_lottie(home_animation, height=300)
