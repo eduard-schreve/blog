@@ -32,7 +32,7 @@ st.write("And hey be sure to check out my friend Nicolaas’ blog it is also abo
  "intuative post and this one and I find it highly interesting as I’m sure you will too.")
 st.write("---")
 st.write("I’m the coffee coder and have a good one!")
-st.image("perlin noise.png", "fig.1 perlin noise")
+st.image("pelin noise.png", "fig.1 perlin noise")
 st.image("ken perlin.png", "fig.2 Ken Perlin")
 st.image("white noise.png", "fig.3 White noise")
 # st_lottie(home_animation, height=300)
